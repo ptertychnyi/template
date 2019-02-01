@@ -1,0 +1,23 @@
+"The Global Warming, is it a myth?"
+ 
+The file "meteo_data.json.gzip" contains data from temperature sensors  showing a daily-average temperature in C. The file contains info about date, latitude, longitude and temperature in C.
+  
+The task: 
+    - step 1:  Load the file so it is available for processing (preferably as a big-data Spark RDD, DataFrame or alike). 
+               Display short sample of the data.
+    - step 2:  Find average temperature by year (you may plot  a chart) and answer if the data shows there is a global 
+               warming visible or not;
+    - step 3:  inspect the  file gps_country_city.csv file  - it contains the major cities in the world with reference 
+               to country and it's coordinates. Find a way to join the data from files to data you get in step 1. 
+               Please not the coordinates of temperature sensors not match exactly to city coordinates. 
+               You may need to find the city located nearest to sensor coordinates. 
+               For simplification of distance calculation we may consider the Earth to be flat. 
+               Display a sample of joint data set. Find the average temperature in Germany in year 2011.
+ 
+Send the task results, your code and a screenshot showing the data in processing
+
+Resources: 
+you may use a template project, located here: 
+https://github.com/c0rsar/bd-event.git
+
+Files for the task are located in template project's resources folder
